@@ -338,7 +338,7 @@ with col_input:
     st.markdown('<div class="input-card">', unsafe_allow_html=True)
     topic = st.text_input(
         "Research Topic",
-        placeholder="e.g. Quantum computing breakthroughs in 2025",
+        placeholder="e.g. Quantum computing breakthroughs in 2026",
         key="topic_input",
         label_visibility="visible",
     )
@@ -350,7 +350,7 @@ with col_input:
     <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;">
         <span style="font-family:'DM Mono',monospace;font-size:0.68rem;color:#605850;letter-spacing:0.1em;">TRY →</span>
     """, unsafe_allow_html=True)
-    examples = ["LLM agents 2025", "CRISPR gene editing", "Fusion energy progress"]
+    examples = ["LLM agents 2026", "CRISPR gene editing", "Fusion energy progress"]
     for ex in examples:
         st.markdown(f"""
         <span style="
