@@ -76,15 +76,7 @@ html, body, [class*="css"] {
     margin: 2rem 0;
 }
 
-/* ── Input card ── */
-.input-card {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,140,50,0.15);
-    border-radius: 16px;
-    padding: 2rem 2.5rem;
-    margin-bottom: 2rem;
-    backdrop-filter: blur(8px);
-}
+
 
 /* ── Streamlit input overrides ── */
 .stTextInput > div > div > input {
@@ -335,7 +327,6 @@ st.markdown("""
 col_input, col_spacer, col_pipeline = st.columns([5, 0.5, 4])
 
 with col_input:
-    st.markdown('<div class="input-card">', unsafe_allow_html=True)
     topic = st.text_input(
         "Research Topic",
         placeholder="e.g. Quantum computing breakthroughs in 2026",
@@ -343,7 +334,6 @@ with col_input:
         label_visibility="visible",
     )
     run_btn = st.button("⚡  Run Research Pipeline", use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
     # Example chips
     st.markdown("""
