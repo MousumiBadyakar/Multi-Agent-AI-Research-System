@@ -37,6 +37,7 @@ html, body, [class*="css"] {
     text-align: center;
     padding: 3.5rem 0 2.5rem;
     position: relative;
+    width: 100%;
 }
 .hero-eyebrow {
     font-family: 'DM Mono', monospace;
@@ -61,12 +62,17 @@ html, body, [class*="css"] {
     color: #ff8c32;
 }
 .hero-sub {
+    display: block !important;
+    width: 100% !important;
+    max-width: 650px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
     font-size: 1.05rem;
     font-weight: 300;
     color: #a09890;
-    max-width: 520px;
-    margin: 0 auto;
     line-height: 1.65;
+    position: static !important;
 }
 
 /* ── Divider ── */
