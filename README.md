@@ -1,4 +1,10 @@
+Built with **Python, LangChain, LangGraph, OpenRouter, Tavily, and Streamlit**, this project demonstrates how AI agents and external tools can collaborate to automate an end-to-end research workflow.
+
 # 🤖 Multi-Agent AI Research System
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://multi-agent-ai-research-system-aupnzz9vhvvty896d4fs9x.streamlit.app/)
+
+**[🚀 Try ResearchMind Live](https://multi-agent-ai-research-system-aupnzz9vhvvty896d4fs9x.streamlit.app/)**
 
 An AI-powered research automation application that uses specialized AI agents to search the web, extract relevant information, generate structured research reports, and evaluate report quality.
 
